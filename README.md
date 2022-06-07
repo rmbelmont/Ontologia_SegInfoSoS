@@ -1,4 +1,4 @@
-# SegInfoSoS
+# SegInfoSoS Ontology
 Ontologia para o Gerenciamento de Segurança da Informação em Sistemas-de-Sistemas
 
 Trabalho de Dissertação de Mestrado em Informática de Roberto Monteiro Dias na Universidade Federal do Estado do Rio de Janeiro (UNIRIO). Período: 03/2020 a 06/2022. Orientador: Rodrigo Pereira dos Santos
