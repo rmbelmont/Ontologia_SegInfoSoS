@@ -1,0 +1,1702 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.labesc.unirio.br/SegInfoSoS"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.labesc.unirio.br/SegInfoSoS"
+     versionIRI="http://www.labesc.unirio.br/SegInfoSoS">
+    <Prefix name="" IRI="http://www.labesc.unirio.br/SegInfoSoS"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Algoritmo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnaliseComparativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnaliseDePontosDeVulnerabilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnaliseDescritiva"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnaliseEValidacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arquitetura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BaseadaEmAtributos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CadeiaDeMarkov"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CaracteristicaDoConstituinte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarroAutonomo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChavePrivada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChavePublica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CidadeInteligente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClasseDerivada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coalizão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Colaborativo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComportamentoEmergente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ControleDeAcesso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ControleDeTrafego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Criptografia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CurvasElipticas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeepLearning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desafio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DesenvolvimentoEvolucionario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistribuicaoDeEnergia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistribuicaoGeografica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EsquemasDeMonitoramento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstudoDeCaso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evolucionario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FatorComportamentoDeAtor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FatorEspecifico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FatorHumano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FatorTipoDeCliente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Federado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FeitaPorEspecialista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gerencial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GestaoDeEdificio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heterogeneidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Independencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntegracaoDeTransporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InteligenciaArtificial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntensivoEmDados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterfaceDosConstituintes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interoperabilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MachineLearning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetodologiaDeAvaliacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Militar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonteCarlo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NivelDePrivacidadeDeDados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operacional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoliticaDeSeguranca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PontoDeVulnerabilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Probabilistico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protocolo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RSA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reconhecido"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SIF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SegurancaDaInformacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SegurancaPublica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Servico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SimulacaoDeAmbiente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoIS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tecnologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tipo_SoS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransparenciaDaInformacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uso_SoS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Virtual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dirigido/Organizacional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiscoDeAtaque/Ciberataque"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SoSTemDesafio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SoSTemSegInfo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SoSTemServico"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SoSTemUso"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UsoEhTidoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#desafioEhTidoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#segInfoEhTidoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#servicoEhTidoPor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#algoritmoProbabilisticoTemNome"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#criptografiaTemNome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AlgoritmoEvolucionario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AlgoritmoProbabilisticoCadeiaDeMarkov"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AlgoritmoProbabilisticoMonteCarlo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnaliseComparativa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnaliseDePontoDeVulnerabilidade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnaliseEValidacao_FeitaPorEspecialista"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnáliseDescritiva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CarrosAutonomos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CidadesInteligentes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coalizao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Colaborativo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ComportamentoEmergente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ControleDeTrafego"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Criptografia_DeChavePrivada_BaseadaEmAtributos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Criptografia_DeChavePrivada_CurvasElipticas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Criptografia_DeChavePrivada_RSA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DesenvolvimentoEvolucionario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DistribuicaoDeEnergia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DistribuicaoGeografica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EsquemaDeMonitoramento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EstudoDeCaso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FatorHumano_ComportamentoDeAtor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FatorHumano_TipoDeCliente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Federado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GestaoDeEdificios"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heterogeneidade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IndependenciaGerencial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IndependenciaOperacional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IntegracaoDeTransporte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InteligenciaArtifical_DeepLearning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InteligenciaArtificial_MachineLearning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IntensivoEmDados"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Interoperabilidade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Militar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoliticaDeSeguranca_ControleDeAcesso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoliticaDeSeguranca_NivelDePrivacidadeDeDados"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PontoDeVulnerabilidade_Arquitetura"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PontoDeVulnerabilidade_InterfaceDoConstituinte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Protocolo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reconhecido"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SIF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SegurancaPublica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SimulacaoDeAmbiente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SoIS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TransparenciaDaInformacao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transporte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Virtual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dirigido/Organizacional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RiscoDeAtaque/Ciberataque"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Algoritmo"/>
+        <Class IRI="#Tecnologia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnaliseComparativa"/>
+        <Class IRI="#MetodologiaDeAvaliacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnaliseDePontosDeVulnerabilidade"/>
+        <Class IRI="#Tecnologia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnaliseDescritiva"/>
+        <Class IRI="#MetodologiaDeAvaliacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnaliseEValidacao"/>
+        <Class IRI="#MetodologiaDeAvaliacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arquitetura"/>
+        <Class IRI="#PontoDeVulnerabilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BaseadaEmAtributos"/>
+        <Class IRI="#ChavePublica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CadeiaDeMarkov"/>
+        <Class IRI="#Probabilistico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CaracteristicaDoConstituinte"/>
+        <Class IRI="#SoS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarroAutonomo"/>
+        <Class IRI="#Servico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarroAutonomo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#servicoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChavePrivada"/>
+        <Class IRI="#Criptografia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChavePublica"/>
+        <Class IRI="#Criptografia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CidadeInteligente"/>
+        <Class IRI="#Uso_SoS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CidadeInteligente"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UsoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClasseDerivada"/>
+        <Class IRI="#SoS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coalizão"/>
+        <Class IRI="#Tipo_SoS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Colaborativo"/>
+        <Class IRI="#Tipo_SoS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComportamentoEmergente"/>
+        <Class IRI="#CaracteristicaDoConstituinte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ControleDeAcesso"/>
+        <Class IRI="#PoliticaDeSeguranca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ControleDeTrafego"/>
+        <Class IRI="#Servico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ControleDeTrafego"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#servicoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Criptografia"/>
+        <Class IRI="#Tecnologia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CurvasElipticas"/>
+        <Class IRI="#ChavePrivada"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeepLearning"/>
+        <Class IRI="#InteligenciaArtificial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desafio"/>
+        <Class IRI="#SoS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DesenvolvimentoEvolucionario"/>
+        <Class IRI="#CaracteristicaDoConstituinte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistribuicaoDeEnergia"/>
+        <Class IRI="#Servico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistribuicaoDeEnergia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#servicoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistribuicaoGeografica"/>
+        <Class IRI="#CaracteristicaDoConstituinte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EsquemasDeMonitoramento"/>
+        <Class IRI="#Tecnologia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstudoDeCaso"/>
+        <Class IRI="#MetodologiaDeAvaliacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evolucionario"/>
+        <Class IRI="#Algoritmo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FatorComportamentoDeAtor"/>
+        <Class IRI="#FatorHumano"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FatorEspecifico"/>
+        <Class IRI="#SegurancaDaInformacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FatorEspecifico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#segInfoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FatorHumano"/>
+        <Class IRI="#FatorEspecifico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FatorTipoDeCliente"/>
+        <Class IRI="#FatorHumano"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Federado"/>
+        <Class IRI="#Tipo_SoS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FeitaPorEspecialista"/>
+        <Class IRI="#AnaliseEValidacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gerencial"/>
+        <Class IRI="#Independencia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GestaoDeEdificio"/>
+        <Class IRI="#Servico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GestaoDeEdificio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#servicoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heterogeneidade"/>
+        <Class IRI="#CaracteristicaDoConstituinte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Independencia"/>
+        <Class IRI="#CaracteristicaDoConstituinte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntegracaoDeTransporte"/>
+        <Class IRI="#Servico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntegracaoDeTransporte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#servicoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteligenciaArtificial"/>
+        <Class IRI="#MetodologiaDeAvaliacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntensivoEmDados"/>
+        <Class IRI="#CaracteristicaDoConstituinte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InterfaceDosConstituintes"/>
+        <Class IRI="#PontoDeVulnerabilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interoperabilidade"/>
+        <Class IRI="#Desafio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interoperabilidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#desafioEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MachineLearning"/>
+        <Class IRI="#InteligenciaArtificial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetodologiaDeAvaliacao"/>
+        <Class IRI="#SegurancaDaInformacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetodologiaDeAvaliacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#segInfoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Militar"/>
+        <Class IRI="#Uso_SoS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Militar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UsoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonteCarlo"/>
+        <Class IRI="#Probabilistico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NivelDePrivacidadeDeDados"/>
+        <Class IRI="#PoliticaDeSeguranca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operacional"/>
+        <Class IRI="#Independencia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliticaDeSeguranca"/>
+        <Class IRI="#FatorEspecifico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliticaDeSeguranca"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#segInfoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PontoDeVulnerabilidade"/>
+        <Class IRI="#FatorEspecifico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Probabilistico"/>
+        <Class IRI="#Algoritmo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protocolo"/>
+        <Class IRI="#Tecnologia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RSA"/>
+        <Class IRI="#ChavePublica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reconhecido"/>
+        <Class IRI="#Tipo_SoS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SIF"/>
+        <Class IRI="#ClasseDerivada"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saude"/>
+        <Class IRI="#Servico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saude"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#servicoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SegurancaPublica"/>
+        <Class IRI="#Servico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SegurancaPublica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#servicoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Servico"/>
+        <Class IRI="#SoS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimulacaoDeAmbiente"/>
+        <Class IRI="#Tecnologia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoIS"/>
+        <Class IRI="#ClasseDerivada"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tecnologia"/>
+        <Class IRI="#SegurancaDaInformacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tecnologia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#segInfoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tipo_SoS"/>
+        <Class IRI="#SoS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransparenciaDaInformacao"/>
+        <Class IRI="#Desafio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransparenciaDaInformacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#desafioEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transporte"/>
+        <Class IRI="#Uso_SoS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transporte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UsoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uso_SoS"/>
+        <Class IRI="#SoS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Virtual"/>
+        <Class IRI="#Tipo_SoS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dirigido/Organizacional"/>
+        <Class IRI="#Tipo_SoS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiscoDeAtaque/Ciberataque"/>
+        <Class IRI="#FatorEspecifico"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Evolucionario"/>
+        <NamedIndividual IRI="#AlgoritmoEvolucionario"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tecnologia"/>
+        <NamedIndividual IRI="#AlgoritmoEvolucionario"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AlgoritmoEvolucionario"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CadeiaDeMarkov"/>
+        <NamedIndividual IRI="#AlgoritmoProbabilisticoCadeiaDeMarkov"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tecnologia"/>
+        <NamedIndividual IRI="#AlgoritmoProbabilisticoCadeiaDeMarkov"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AlgoritmoProbabilisticoCadeiaDeMarkov"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonteCarlo"/>
+        <NamedIndividual IRI="#AlgoritmoProbabilisticoMonteCarlo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tecnologia"/>
+        <NamedIndividual IRI="#AlgoritmoProbabilisticoMonteCarlo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AlgoritmoProbabilisticoMonteCarlo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnaliseComparativa"/>
+        <NamedIndividual IRI="#AnaliseComparativa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MetodologiaDeAvaliacao"/>
+        <NamedIndividual IRI="#AnaliseComparativa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#AnaliseComparativa"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AnaliseComparativa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnaliseDePontosDeVulnerabilidade"/>
+        <NamedIndividual IRI="#AnaliseDePontoDeVulnerabilidade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tecnologia"/>
+        <NamedIndividual IRI="#AnaliseDePontoDeVulnerabilidade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AnaliseDePontoDeVulnerabilidade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnaliseEValidacao"/>
+        <NamedIndividual IRI="#AnaliseEValidacao_FeitaPorEspecialista"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FeitaPorEspecialista"/>
+        <NamedIndividual IRI="#AnaliseEValidacao_FeitaPorEspecialista"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MetodologiaDeAvaliacao"/>
+        <NamedIndividual IRI="#AnaliseEValidacao_FeitaPorEspecialista"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AnaliseEValidacao_FeitaPorEspecialista"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnaliseDescritiva"/>
+        <NamedIndividual IRI="#AnáliseDescritiva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MetodologiaDeAvaliacao"/>
+        <NamedIndividual IRI="#AnáliseDescritiva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#AnaliseDescritiva"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AnáliseDescritiva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CarroAutonomo"/>
+        <NamedIndividual IRI="#CarrosAutonomos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Servico"/>
+        <NamedIndividual IRI="#CarrosAutonomos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemServico"/>
+            <Class IRI="#CarroAutonomo"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#CarrosAutonomos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CidadeInteligente"/>
+        <NamedIndividual IRI="#CidadesInteligentes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Uso_SoS"/>
+        <NamedIndividual IRI="#CidadesInteligentes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemUso"/>
+            <Class IRI="#CidadeInteligente"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#CidadesInteligentes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Coalizão"/>
+        <NamedIndividual IRI="#Coalizao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Colaborativo"/>
+        <NamedIndividual IRI="#Colaborativo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CaracteristicaDoConstituinte"/>
+        <NamedIndividual IRI="#ComportamentoEmergente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComportamentoEmergente"/>
+        <NamedIndividual IRI="#ComportamentoEmergente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ControleDeTrafego"/>
+        <NamedIndividual IRI="#ControleDeTrafego"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Servico"/>
+        <NamedIndividual IRI="#ControleDeTrafego"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemServico"/>
+            <Class IRI="#ControleDeTrafego"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#ControleDeTrafego"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BaseadaEmAtributos"/>
+        <NamedIndividual IRI="#Criptografia_DeChavePrivada_BaseadaEmAtributos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tecnologia"/>
+        <NamedIndividual IRI="#Criptografia_DeChavePrivada_BaseadaEmAtributos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Criptografia_DeChavePrivada_BaseadaEmAtributos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CurvasElipticas"/>
+        <NamedIndividual IRI="#Criptografia_DeChavePrivada_CurvasElipticas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tecnologia"/>
+        <NamedIndividual IRI="#Criptografia_DeChavePrivada_CurvasElipticas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Criptografia_DeChavePrivada_CurvasElipticas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RSA"/>
+        <NamedIndividual IRI="#Criptografia_DeChavePrivada_RSA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tecnologia"/>
+        <NamedIndividual IRI="#Criptografia_DeChavePrivada_RSA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Criptografia_DeChavePrivada_RSA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CaracteristicaDoConstituinte"/>
+        <NamedIndividual IRI="#DesenvolvimentoEvolucionario"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DesenvolvimentoEvolucionario"/>
+        <NamedIndividual IRI="#DesenvolvimentoEvolucionario"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DistribuicaoDeEnergia"/>
+        <NamedIndividual IRI="#DistribuicaoDeEnergia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Servico"/>
+        <NamedIndividual IRI="#DistribuicaoDeEnergia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemServico"/>
+            <Class IRI="#DistribuicaoDeEnergia"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#DistribuicaoDeEnergia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CaracteristicaDoConstituinte"/>
+        <NamedIndividual IRI="#DistribuicaoGeografica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DistribuicaoGeografica"/>
+        <NamedIndividual IRI="#DistribuicaoGeografica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EsquemasDeMonitoramento"/>
+        <NamedIndividual IRI="#EsquemaDeMonitoramento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tecnologia"/>
+        <NamedIndividual IRI="#EsquemaDeMonitoramento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#EsquemasDeMonitoramento"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#EsquemaDeMonitoramento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EstudoDeCaso"/>
+        <NamedIndividual IRI="#EstudoDeCaso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MetodologiaDeAvaliacao"/>
+        <NamedIndividual IRI="#EstudoDeCaso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#EstudoDeCaso"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#EstudoDeCaso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FatorComportamentoDeAtor"/>
+        <NamedIndividual IRI="#FatorHumano_ComportamentoDeAtor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FatorEspecifico"/>
+        <NamedIndividual IRI="#FatorHumano_ComportamentoDeAtor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FatorHumano"/>
+        <NamedIndividual IRI="#FatorHumano_ComportamentoDeAtor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#FatorHumano_ComportamentoDeAtor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FatorEspecifico"/>
+        <NamedIndividual IRI="#FatorHumano_TipoDeCliente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FatorHumano"/>
+        <NamedIndividual IRI="#FatorHumano_TipoDeCliente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FatorTipoDeCliente"/>
+        <NamedIndividual IRI="#FatorHumano_TipoDeCliente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#FatorHumano_TipoDeCliente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Federado"/>
+        <NamedIndividual IRI="#Federado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GestaoDeEdificio"/>
+        <NamedIndividual IRI="#GestaoDeEdificios"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Servico"/>
+        <NamedIndividual IRI="#GestaoDeEdificios"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemServico"/>
+            <Class IRI="#GestaoDeEdificio"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GestaoDeEdificios"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CaracteristicaDoConstituinte"/>
+        <NamedIndividual IRI="#Heterogeneidade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heterogeneidade"/>
+        <NamedIndividual IRI="#Heterogeneidade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CaracteristicaDoConstituinte"/>
+        <NamedIndividual IRI="#IndependenciaGerencial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gerencial"/>
+        <NamedIndividual IRI="#IndependenciaGerencial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CaracteristicaDoConstituinte"/>
+        <NamedIndividual IRI="#IndependenciaOperacional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Operacional"/>
+        <NamedIndividual IRI="#IndependenciaOperacional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IntegracaoDeTransporte"/>
+        <NamedIndividual IRI="#IntegracaoDeTransporte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Servico"/>
+        <NamedIndividual IRI="#IntegracaoDeTransporte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemServico"/>
+            <Class IRI="#IntegracaoDeTransporte"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#IntegracaoDeTransporte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DeepLearning"/>
+        <NamedIndividual IRI="#InteligenciaArtifical_DeepLearning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MetodologiaDeAvaliacao"/>
+        <NamedIndividual IRI="#InteligenciaArtifical_DeepLearning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#InteligenciaArtifical_DeepLearning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MachineLearning"/>
+        <NamedIndividual IRI="#InteligenciaArtificial_MachineLearning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MetodologiaDeAvaliacao"/>
+        <NamedIndividual IRI="#InteligenciaArtificial_MachineLearning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#InteligenciaArtificial_MachineLearning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CaracteristicaDoConstituinte"/>
+        <NamedIndividual IRI="#IntensivoEmDados"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IntensivoEmDados"/>
+        <NamedIndividual IRI="#IntensivoEmDados"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Desafio"/>
+        <NamedIndividual IRI="#Interoperabilidade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Interoperabilidade"/>
+        <NamedIndividual IRI="#Interoperabilidade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemDesafio"/>
+            <Class IRI="#Interoperabilidade"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Interoperabilidade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Militar"/>
+        <NamedIndividual IRI="#Militar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Uso_SoS"/>
+        <NamedIndividual IRI="#Militar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemUso"/>
+            <Class IRI="#Militar"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Militar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ControleDeAcesso"/>
+        <NamedIndividual IRI="#PoliticaDeSeguranca_ControleDeAcesso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FatorEspecifico"/>
+        <NamedIndividual IRI="#PoliticaDeSeguranca_ControleDeAcesso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PoliticaDeSeguranca"/>
+        <NamedIndividual IRI="#PoliticaDeSeguranca_ControleDeAcesso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PoliticaDeSeguranca_ControleDeAcesso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FatorEspecifico"/>
+        <NamedIndividual IRI="#PoliticaDeSeguranca_NivelDePrivacidadeDeDados"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NivelDePrivacidadeDeDados"/>
+        <NamedIndividual IRI="#PoliticaDeSeguranca_NivelDePrivacidadeDeDados"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PoliticaDeSeguranca"/>
+        <NamedIndividual IRI="#PoliticaDeSeguranca_NivelDePrivacidadeDeDados"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PoliticaDeSeguranca_NivelDePrivacidadeDeDados"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Arquitetura"/>
+        <NamedIndividual IRI="#PontoDeVulnerabilidade_Arquitetura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FatorEspecifico"/>
+        <NamedIndividual IRI="#PontoDeVulnerabilidade_Arquitetura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PontoDeVulnerabilidade"/>
+        <NamedIndividual IRI="#PontoDeVulnerabilidade_Arquitetura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PontoDeVulnerabilidade_Arquitetura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FatorEspecifico"/>
+        <NamedIndividual IRI="#PontoDeVulnerabilidade_InterfaceDoConstituinte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InterfaceDosConstituintes"/>
+        <NamedIndividual IRI="#PontoDeVulnerabilidade_InterfaceDoConstituinte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PontoDeVulnerabilidade"/>
+        <NamedIndividual IRI="#PontoDeVulnerabilidade_InterfaceDoConstituinte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PontoDeVulnerabilidade_InterfaceDoConstituinte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Protocolo"/>
+        <NamedIndividual IRI="#Protocolo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tecnologia"/>
+        <NamedIndividual IRI="#Protocolo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#Protocolo"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Protocolo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reconhecido"/>
+        <NamedIndividual IRI="#Reconhecido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SIF"/>
+        <NamedIndividual IRI="#SIF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saude"/>
+        <NamedIndividual IRI="#Saude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Servico"/>
+        <NamedIndividual IRI="#Saude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemServico"/>
+            <Class IRI="#Saude"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Saude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SegurancaPublica"/>
+        <NamedIndividual IRI="#SegurancaPublica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Servico"/>
+        <NamedIndividual IRI="#SegurancaPublica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemServico"/>
+            <Class IRI="#SegurancaPublica"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SegurancaPublica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SimulacaoDeAmbiente"/>
+        <NamedIndividual IRI="#SimulacaoDeAmbiente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tecnologia"/>
+        <NamedIndividual IRI="#SimulacaoDeAmbiente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SimulacaoDeAmbiente"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SimulacaoDeAmbiente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SoIS"/>
+        <NamedIndividual IRI="#SoIS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Desafio"/>
+        <NamedIndividual IRI="#TransparenciaDaInformacao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TransparenciaDaInformacao"/>
+        <NamedIndividual IRI="#TransparenciaDaInformacao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemDesafio"/>
+            <Class IRI="#TransparenciaDaInformacao"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#TransparenciaDaInformacao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transporte"/>
+        <NamedIndividual IRI="#Transporte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Uso_SoS"/>
+        <NamedIndividual IRI="#Transporte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemUso"/>
+            <Class IRI="#Transporte"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Transporte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Virtual"/>
+        <NamedIndividual IRI="#Virtual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dirigido/Organizacional"/>
+        <NamedIndividual IRI="#Dirigido/Organizacional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FatorEspecifico"/>
+        <NamedIndividual IRI="#RiscoDeAtaque/Ciberataque"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RiscoDeAtaque/Ciberataque"/>
+        <NamedIndividual IRI="#RiscoDeAtaque/Ciberataque"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#RiscoDeAtaque/Ciberataque"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#algoritmoProbabilisticoTemNome"/>
+        <NamedIndividual IRI="#AlgoritmoProbabilisticoMonteCarlo"/>
+        <Literal>Monte Carlo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#criptografiaTemNome"/>
+        <NamedIndividual IRI="#Criptografia_DeChavePrivada_RSA"/>
+        <Literal>RSA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#criptografiaTemNome"/>
+        <NamedIndividual IRI="#Criptografia_DeChavePrivada_RSA"/>
+        <Literal>Rivest-Shamir-Adleman</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#SoSTemDesafio"/>
+        <ObjectProperty IRI="#desafioEhTidoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#SoSTemSegInfo"/>
+        <ObjectProperty IRI="#segInfoEhTidoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#SoSTemServico"/>
+        <ObjectProperty IRI="#servicoEhTidoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#SoSTemUso"/>
+        <ObjectProperty IRI="#UsoEhTidoPor"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SoSTemDesafio"/>
+        <Class IRI="#SoS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SoSTemSegInfo"/>
+        <Class IRI="#SoS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SoSTemServico"/>
+        <Class IRI="#SoS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SoSTemUso"/>
+        <Class IRI="#SoS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#UsoEhTidoPor"/>
+        <Class IRI="#Uso_SoS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#desafioEhTidoPor"/>
+        <Class IRI="#Desafio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#segInfoEhTidoPor"/>
+        <Class IRI="#SegurancaDaInformacao"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#servicoEhTidoPor"/>
+        <Class IRI="#Servico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemDesafio"/>
+        <Class IRI="#Desafio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemDesafio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemDesafio"/>
+            <Class IRI="#Interoperabilidade"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemDesafio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemDesafio"/>
+            <Class IRI="#TransparenciaDaInformacao"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemSegInfo"/>
+        <Class IRI="#SegurancaDaInformacao"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemSegInfo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#FatorEspecifico"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemSegInfo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#MetodologiaDeAvaliacao"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemSegInfo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemSegInfo"/>
+            <Class IRI="#Tecnologia"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemServico"/>
+        <Class IRI="#Servico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemServico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemServico"/>
+            <Class IRI="#CarroAutonomo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemServico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemServico"/>
+            <Class IRI="#ControleDeTrafego"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemServico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemServico"/>
+            <Class IRI="#DistribuicaoDeEnergia"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemServico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemServico"/>
+            <Class IRI="#GestaoDeEdificio"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemServico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemServico"/>
+            <Class IRI="#IntegracaoDeTransporte"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemServico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemServico"/>
+            <Class IRI="#Saude"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemServico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemServico"/>
+            <Class IRI="#SegurancaPublica"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemUso"/>
+        <Class IRI="#Uso_SoS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemUso"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemUso"/>
+            <Class IRI="#CidadeInteligente"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemUso"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemUso"/>
+            <Class IRI="#Militar"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SoSTemUso"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SoSTemUso"/>
+            <Class IRI="#Transporte"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsoEhTidoPor"/>
+        <Class IRI="#SoS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsoEhTidoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UsoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#desafioEhTidoPor"/>
+        <Class IRI="#SoS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#desafioEhTidoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#desafioEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#segInfoEhTidoPor"/>
+        <Class IRI="#SoS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#segInfoEhTidoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#segInfoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#servicoEhTidoPor"/>
+        <Class IRI="#SoS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#servicoEhTidoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#servicoEhTidoPor"/>
+            <Class IRI="#SoS"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#algoritmoProbabilisticoTemNome"/>
+        <Class IRI="#Algoritmo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#criptografiaTemNome"/>
+        <Class IRI="#Criptografia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Class IRI="#Tecnologia"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#algoritmoProbabilisticoTemNome"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#criptografiaTemNome"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
