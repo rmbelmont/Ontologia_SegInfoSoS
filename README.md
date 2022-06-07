@@ -1,7 +1,7 @@
 # SegInfoSoS
 Ontologia para o Gerenciamento de Segurança da Informação em Sistemas-de-Sistemas
 
-Trabalho de Dissertação de Mestrado em Informática de Roberto Monteiro Dias na Universidade Federal do Estado do Rio de Janeiro (UNIRIO). Período: 03/2020 a 06/2022.
+Trabalho de Dissertação de Mestrado em Informática de Roberto Monteiro Dias na Universidade Federal do Estado do Rio de Janeiro (UNIRIO). Período: 03/2020 a 06/2022. Orientador: Rodrigo Pereira dos Santos
 
 As intensas transformações ocorridas na sociedade nesta década tornaram os sistemas de informação (SI) mais complexos. Tal complexidade se relaciona a uma categoria de
 sistemas definida como sistemas-de-sistemas (SoS). Embora o SoS ofereça benefícios às organizações, a dificuldade dos gestores de Tecnologia da Informação (TI) em lidar
