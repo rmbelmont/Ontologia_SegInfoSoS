@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Monteiro Dias"
+  given-names: "Roberto"
+  orcid: "https://orcid.org/0000-0001-9514-1946"
+title: "Ontologia para o Gerenciamento de Segurança da Informação em SoS"
+version: 1.0.0
+doi: 10.5281/zenodo.6621716
+date-released: 2022-06-07
+url: "https://doi.org/10.5281/zenodo.6621716"
